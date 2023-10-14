@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Core API\\NZWalk\\NZWalk.API\\NZWalk.API.csproj": {}
+    "D:\\Core.API\\NZWalk.API.csproj": {}
   },
   "projects": {
-    "D:\\Core API\\NZWalk\\NZWalk.API\\NZWalk.API.csproj": {
+    "D:\\Core.API\\NZWalk.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Core API\\NZWalk\\NZWalk.API\\NZWalk.API.csproj",
+        "projectUniqueName": "D:\\Core.API\\NZWalk.API.csproj",
         "projectName": "NZWalk.API",
-        "projectPath": "D:\\Core API\\NZWalk\\NZWalk.API\\NZWalk.API.csproj",
+        "projectPath": "D:\\Core.API\\NZWalk.API.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\Core API\\NZWalk\\NZWalk.API\\obj\\",
+        "outputPath": "D:\\Core.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -51,6 +51,14 @@
               "target": "Package",
               "version": "[12.0.1, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.11, )"
@@ -65,9 +73,17 @@
               "target": "Package",
               "version": "[7.0.11, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.2, )"
             }
           },
           "imports": [

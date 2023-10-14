@@ -35,6 +35,23 @@ namespace NZWalk.API.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Difficulties");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("f61d66c1-13a1-4d7a-96c9-2d309939af55"),
+                            Name = "Khó"
+                        },
+                        new
+                        {
+                            Id = new Guid("b2a19d46-0439-41fd-bbb4-93b01a226ebf"),
+                            Name = "Vừa"
+                        },
+                        new
+                        {
+                            Id = new Guid("4fdeccb7-8506-4621-881c-c10427072064"),
+                            Name = "Dễ"
+                        });
                 });
 
             modelBuilder.Entity("NZWalk.API.Models.Domain.Region", b =>
@@ -57,6 +74,38 @@ namespace NZWalk.API.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Regions");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("ededd4e3-e398-4a91-95fe-d610151bd1f1"),
+                            Code = "HN",
+                            Name = "Hà Nội"
+                        },
+                        new
+                        {
+                            Id = new Guid("e5e666ca-cd5e-4fc7-8c72-9907ee3d6323"),
+                            Code = "TH",
+                            Name = "Thanh Hóa"
+                        },
+                        new
+                        {
+                            Id = new Guid("43e22194-6b1e-4622-bf01-8de512e090af"),
+                            Code = "QN",
+                            Name = "Quảng Ninh"
+                        },
+                        new
+                        {
+                            Id = new Guid("9d831acd-7bcb-44f5-a363-2940ab912c2a"),
+                            Code = "DN",
+                            Name = "Đà Nẵng"
+                        },
+                        new
+                        {
+                            Id = new Guid("05011613-2824-4e4b-ae26-f2c204220a6d"),
+                            Code = "HA",
+                            Name = "Hội An"
+                        });
                 });
 
             modelBuilder.Entity("NZWalk.API.Models.Domain.Walk", b =>
